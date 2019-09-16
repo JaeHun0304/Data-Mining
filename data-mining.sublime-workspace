@@ -7,35 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "data-mining.sublime-project",
-			"settings":
-			{
-				"buffer_size": 283,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Sample mean vector of D: \n[ 5.6 12.6]\nData matrix D: \n[[ 9 22]\n [ 0  2]\n [ 8 19]\n [10 18]\n [ 1  2]]\nN normalized Covariance Matrix: \n[[22.3 44.8]\n [44.8 95.8]]\nEigenvalues of Covariance Matrix: \n[  1.10517711 116.99482289]\nEigenvector of Covariance Matrix: \n[[-0.90394249 -0.42765404]\n [ 0.42765404 -0.90394249]]\nFirst principal component of D: 116.9948228921273\nProjected coordinate of D: \n[[  1.27290646   0.85530808   0.89388683  -1.34165218  -0.04863441]\n [-23.7356211   -1.80788498 -20.5961396  -20.54750519  -2.23553902]]\n[99.06420227953201, 0.9357977204679861]\n[Finished in 0.9s]",
-			"settings":
-			{
-				"buffer_size": 586,
-				"line_ending": "Windows",
-				"name": "Build output",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "Traceback (most recent call last):\n  File \"C:\\Users\\jjh44\\OneDrive\\Documents\\GitHub\\Data-Mining\\Assignment1.py\", line 1, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n[Finished in 0.1s with exit code 1]\n[shell_cmd: \"python\" -u \"C:\\Users\\jjh44\\OneDrive\\Documents\\GitHub\\Data-Mining\\Assignment1.py\"]\n[dir: C:\\Users\\jjh44\\OneDrive\\Documents\\GitHub\\Data-Mining]\n[path: C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Python36\\Scripts\\;C:\\Python36\\;C:\\Users\\jjh44\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Bandizip\\;C:\\Users\\jjh44\\AppData\\Local\\GitHubDesktop\\bin]",
-			"settings":
-			{
-				"buffer_size": 712,
-				"line_ending": "Windows",
-				"name": "Build output",
-				"scratch": true
-			}
-		}
 	],
 	"build_system": "Anaconda Python Builder",
 	"build_system_choices":
@@ -121,16 +92,18 @@
 	],
 	"file_history":
 	[
+		"/C/Users/jjh44/OneDrive/Documents/GitHub/Data-Mining/data-mining.sublime-project",
+		"/C/Users/jjh44/OneDrive/Documents/GitHub/Data-Mining/README.md",
 		"/C/Users/jjh44/OneDrive/Documents/GitHub/Data-Mining/Assignment1.py",
+		"/C/Users/jjh44/OneDrive/Documents/GitHub/Data-Mining/.gitignore",
 		"/C/Users/jjh44/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/C/Users/jjh44/OneDrive/Documents/GitHub/Data-Mining/Assignment1-4.py",
-		"/C/Users/jjh44/OneDrive/Documents/GitHub/Data-Mining/data-mining.sublime-project",
 		"/C/Users/jjh44/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
 		"/C/Users/jjh44/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -164,104 +137,19 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "data-mining.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								231,
-								231
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								586,
-								586
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 712,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								132
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -309,7 +197,7 @@
 	"project": "data-mining.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
