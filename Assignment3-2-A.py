@@ -6,7 +6,7 @@ xs = np.array([(0.5,4.5), (2.2,1.5), (3.9,3.5), (2.1,1.9), (0.5,3.2), (0.8,4.3),
                (2.7,1.1), (2.5,3.5), (2.8,3.9), (0.1,4.1)])
 means = np.array([[0.5, 4.5], [2.2,1.6], [3,3.5]])
 prob = np.array([[1/3],[1/3],[1/3]])
-cov_mat = np.array([[[1,0],[0,1]], [[1,0],[0,1]], [[1,0],[0,1]]])
+cov_mat = np.array([[[1.,0.],[0.,1.]], [[1.,0.],[0.,1.]], [[1.,0.],[0.,1.]]])
 
 # Initialzie empty weight vector
 weights = [[],[],[]]
@@ -48,9 +48,12 @@ for i in range(3):
     denom = 0
     for j in range(len(xs)):
         a = xs[j]-means[i]
-        numer += weights[i][j]*np.dot(a,a)
+        numer = numer + (weights[i][j]*np.dot(a,a))
     denom = sum(weights[i])
-    cov_mat[i] = (numer/denom)
+    update = numer/denom
+    print(float(update))
+    cov_mat[i,0,0] = float(update)
+    cov_mat[i,1,1] = float(update)
 
 print("Means, probabilities, and covariances after 1st iteration of EM:")
 print("Means:")
