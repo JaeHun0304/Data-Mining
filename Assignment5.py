@@ -8,10 +8,10 @@ X1 = np.array([5,7,3,6])
 X2 = np.array([8,7,4,5,1])
 
 
-print(scipy.stats.norm(np.mean(X1), np.std(X1)).pdf(1.0) * float(4/9))
-print(scipy.stats.norm(np.mean(X2), np.std(X2)).pdf(1.0) * float(5/9))
+print(scipy.stats.norm(np.mean(X1), np.std(X1)).pdf(1.0) * float(3/4) * float(1/2))
+print(scipy.stats.norm(np.mean(X2), np.std(X2)).pdf(1.0) * float(1/5) * float(2/5))
 
-
+"""
 X1_Mean = np.array([1., 3.])
 X1_Cov = np.array([[5.,3.], [3.,2.]])
 X2_Mean = np.array([5.,5.])
@@ -74,3 +74,4 @@ for i in range(len(dyl)):
 
 print(gain)
 print(max(gain))
+"""
