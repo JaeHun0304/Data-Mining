@@ -51,7 +51,6 @@ for i in range(3):
         numer = numer + (weights[i][j]*np.dot(a,a))
     denom = sum(weights[i])
     update = numer/denom
-    print(float(update))
     cov_mat[i,0,0] = float(update)
     cov_mat[i,1,1] = float(update)
 
